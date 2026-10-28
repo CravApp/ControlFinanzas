@@ -1,0 +1,353 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B661D9A9E317C30BFE86AB /* AddTransactionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59A88889A79AC13537114233 /* AddTransactionView.swift */; };
+		5BF75758D394B670A1AEAF31 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 035CB27898009CCB398CEA3C /* DashboardView.swift */; };
+		679177BB67E722141BF539AC /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314654C8A022DCFFFB8513B0 /* Transaction.swift */; };
+		AAE4C98A4814C64D71A0BCAD /* ControlFinanzasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A08937202C3433E2C59859 /* ControlFinanzasApp.swift */; };
+		BA591E98E4216183017205A5 /* TransactionRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99C2869E32D438445DDDAEEF /* TransactionRowView.swift */; };
+		D539EEA8406C2F4886858DE1 /* FinanceService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9622278CA1F003D41C63D19F /* FinanceService.swift */; };
+		EEB59187D35925231A819581 /* TransactionCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D94BC5382B210F2357518A5 /* TransactionCategory.swift */; };
+		F006D251393D83347EA1E38B /* TransactionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D12A3ACA8B16760AAB93E329 /* TransactionType.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		035CB27898009CCB398CEA3C /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		07A08937202C3433E2C59859 /* ControlFinanzasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlFinanzasApp.swift; sourceTree = "<group>"; };
+		0D94BC5382B210F2357518A5 /* TransactionCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionCategory.swift; sourceTree = "<group>"; };
+		314654C8A022DCFFFB8513B0 /* Transaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		59A88889A79AC13537114233 /* AddTransactionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionView.swift; sourceTree = "<group>"; };
+		8398E8766A06B9E42C8DCCD2 /* ControlFinanzas.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = ControlFinanzas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9622278CA1F003D41C63D19F /* FinanceService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceService.swift; sourceTree = "<group>"; };
+		99C2869E32D438445DDDAEEF /* TransactionRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionRowView.swift; sourceTree = "<group>"; };
+		D12A3ACA8B16760AAB93E329 /* TransactionType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionType.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		0004D0BAE1FF9E0D249ECE48 = {
+			isa = PBXGroup;
+			children = (
+				0920844146BAC8EF3CB6B12E /* ControlFinanzas */,
+				37C255DA7E7A1E4BB5020F22 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0920844146BAC8EF3CB6B12E /* ControlFinanzas */ = {
+			isa = PBXGroup;
+			children = (
+				5503EC38F301272ED3B2E6F2 /* App */,
+				5F56FB7CD781F2E81F2030ED /* Models */,
+				30D722D88C241D7EA17A8256 /* Services */,
+				1271C0CA1415994CB7D70DFA /* Views */,
+			);
+			path = ControlFinanzas;
+			sourceTree = "<group>";
+		};
+		1271C0CA1415994CB7D70DFA /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				59A88889A79AC13537114233 /* AddTransactionView.swift */,
+				035CB27898009CCB398CEA3C /* DashboardView.swift */,
+				99C2869E32D438445DDDAEEF /* TransactionRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		30D722D88C241D7EA17A8256 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				9622278CA1F003D41C63D19F /* FinanceService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		37C255DA7E7A1E4BB5020F22 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8398E8766A06B9E42C8DCCD2 /* ControlFinanzas.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5503EC38F301272ED3B2E6F2 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				07A08937202C3433E2C59859 /* ControlFinanzasApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5F56FB7CD781F2E81F2030ED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				314654C8A022DCFFFB8513B0 /* Transaction.swift */,
+				0D94BC5382B210F2357518A5 /* TransactionCategory.swift */,
+				D12A3ACA8B16760AAB93E329 /* TransactionType.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F3CD9A4CDA9CB0192741B22 /* ControlFinanzas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F5BA56E43C1BFB13F928A32 /* Build configuration list for PBXNativeTarget "ControlFinanzas" */;
+			buildPhases = (
+				87A99655AB697F3A7EC0C18E /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ControlFinanzas;
+			packageProductDependencies = (
+			);
+			productName = ControlFinanzas;
+			productReference = 8398E8766A06B9E42C8DCCD2 /* ControlFinanzas.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BC17604921981454F5ECD33 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					7F3CD9A4CDA9CB0192741B22 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2113BC94712095F461C38857 /* Build configuration list for PBXProject "ControlFinanzas" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 0004D0BAE1FF9E0D249ECE48;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 37C255DA7E7A1E4BB5020F22 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F3CD9A4CDA9CB0192741B22 /* ControlFinanzas */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87A99655AB697F3A7EC0C18E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B661D9A9E317C30BFE86AB /* AddTransactionView.swift in Sources */,
+				AAE4C98A4814C64D71A0BCAD /* ControlFinanzasApp.swift in Sources */,
+				5BF75758D394B670A1AEAF31 /* DashboardView.swift in Sources */,
+				D539EEA8406C2F4886858DE1 /* FinanceService.swift in Sources */,
+				679177BB67E722141BF539AC /* Transaction.swift in Sources */,
+				EEB59187D35925231A819581 /* TransactionCategory.swift in Sources */,
+				BA591E98E4216183017205A5 /* TransactionRowView.swift in Sources */,
+				F006D251393D83347EA1E38B /* TransactionType.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E9BFBE3CF5A103681A906FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ControlFinanzas;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cravapp.controlfinanzas;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10E70D653B0297212E971795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = ControlFinanzas;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cravapp.controlfinanzas;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3CA939D0AC4D186443CCC979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1141316BED38A42E6D141F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F5BA56E43C1BFB13F928A32 /* Build configuration list for PBXNativeTarget "ControlFinanzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E9BFBE3CF5A103681A906FE /* Debug */,
+				10E70D653B0297212E971795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2113BC94712095F461C38857 /* Build configuration list for PBXProject "ControlFinanzas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CA939D0AC4D186443CCC979 /* Debug */,
+				C1141316BED38A42E6D141F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BC17604921981454F5ECD33 /* Project object */;
+}
